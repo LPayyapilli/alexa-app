@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 require('./Table.scss');
 
 class Table extends React.Component {
