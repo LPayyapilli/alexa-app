@@ -1,0 +1,46 @@
+
+.table-component {
+  .table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+    thead, tbody, tr, th {
+      font-size: 100%;
+      vertical-align: baseline;
+      margin: 0;
+      padding: 0;
+      outline: 0;
+      border: 0;
+      border-style: none;
+      background: 0 0;
+    }
+
+    tbody {
+      display: table-row-group;
+    }
+    thead {
+      th {
+        font-weight: normal;
+        font-size: 14px;
+        border-top: none;
+        text-align: center;
+        color: #039;
+        padding: 8px 2px;
+      }
+      tr {
+        display: table-row;
+        margin: 10 0 10 0;
+      }
+
+      td {
+        color: #669;
+        padding: 12px 2px 0;
+      }
+    }
+
+  }
+}
