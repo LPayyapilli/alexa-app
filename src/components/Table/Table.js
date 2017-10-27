@@ -7,12 +7,6 @@ class Table extends React.Component {
     //     cols: React.PropTypes.array.isRequired,
     //     className: React.PropTypes.string.isRequired
     // };
-    // componentWillReceiveProps(nextProps) {
-    //     if (this.props.cols.length != nextProps.cols.length) {
-    //       this.forceUpdate();
-    //     }
-    // }
-
     render() {
         let tableHeader = [];
         this.props.cols.forEach(function(col, i) {
